@@ -4,21 +4,33 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		F9K7CjoiLHMcZC52iIQG3r9Fcg4=
+		</data>
 		<key>Headers/BEManager.h</key>
 		<data>
-		1+2+uULMPatf/BWXhpgmOQCKT+8=
+		JENpko5DpgeDCqq/ldUdq737NgY=
 		</data>
 		<key>Headers/BugEase_iOS.h</key>
 		<data>
 		QymZM7qV7a4CllDqQwdrdIlD1Ac=
 		</data>
+		<key>Headers/UIView+BEToast.h</key>
+		<data>
+		ANr3Pc9MVMlbYansUYcNzYH2+ww=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		D2dXVz0NfZFVwyikpkupAOrDk54=
+		0cUxBa6cNdbKVBMZNaDheKbaLfQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		dyAVXKAKRt1YFXlQXpUyJgUdX8Y=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		9kgewWRprRewFNYQb8+6GeKN63c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -27,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1+2+uULMPatf/BWXhpgmOQCKT+8=
+			JENpko5DpgeDCqq/ldUdq737NgY=
 			</data>
 			<key>hash2</key>
 			<data>
-			b5K7gFHHuOZlZKTXarkT9lYa0Ougs/AIn6txl9vfXSU=
+			I4oklLSJn0SjmrO4lWjcEeN3RUHMkZQuXIaoG3CnF+M=
 			</data>
 		</dict>
 		<key>Headers/BugEase_iOS.h</key>
@@ -45,6 +57,17 @@
 			a5ijTcuI3iSjkT+EQhxabo/LGId5vPqk5uiyW2mK5bk=
 			</data>
 		</dict>
+		<key>Headers/UIView+BEToast.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ANr3Pc9MVMlbYansUYcNzYH2+ww=
+			</data>
+			<key>hash2</key>
+			<data>
+			xu3o/1BIVlsBmpuB9JiU4D4/r4NV2AlVSonizf4D/Xc=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -54,6 +77,17 @@
 			<key>hash2</key>
 			<data>
 			TMo4rTo0hFaYscQhyPfEEyxworfgX4mr/69zK613mAo=
+			</data>
+		</dict>
+		<key>embedded.mobileprovision</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9kgewWRprRewFNYQb8+6GeKN63c=
+			</data>
+			<key>hash2</key>
+			<data>
+			PGFd3Kjd1hAbmNzgZ1+vuX1P51kUxOoc2URQeZQtGfc=
 			</data>
 		</dict>
 	</dict>
