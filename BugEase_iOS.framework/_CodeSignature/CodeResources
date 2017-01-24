@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		F9K7CjoiLHMcZC52iIQG3r9Fcg4=
-		</data>
 		<key>Headers/BEManager.h</key>
 		<data>
 		JENpko5DpgeDCqq/ldUdq737NgY=
@@ -16,21 +12,13 @@
 		<data>
 		QymZM7qV7a4CllDqQwdrdIlD1Ac=
 		</data>
-		<key>Headers/UIView+BEToast.h</key>
-		<data>
-		ANr3Pc9MVMlbYansUYcNzYH2+ww=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		0cUxBa6cNdbKVBMZNaDheKbaLfQ=
+		RC2dW5bQQLWSjeM7yn4OcKuyNaE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		dyAVXKAKRt1YFXlQXpUyJgUdX8Y=
-		</data>
-		<key>embedded.mobileprovision</key>
-		<data>
-		9kgewWRprRewFNYQb8+6GeKN63c=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -57,17 +45,6 @@
 			a5ijTcuI3iSjkT+EQhxabo/LGId5vPqk5uiyW2mK5bk=
 			</data>
 		</dict>
-		<key>Headers/UIView+BEToast.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ANr3Pc9MVMlbYansUYcNzYH2+ww=
-			</data>
-			<key>hash2</key>
-			<data>
-			xu3o/1BIVlsBmpuB9JiU4D4/r4NV2AlVSonizf4D/Xc=
-			</data>
-		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
@@ -77,17 +54,6 @@
 			<key>hash2</key>
 			<data>
 			TMo4rTo0hFaYscQhyPfEEyxworfgX4mr/69zK613mAo=
-			</data>
-		</dict>
-		<key>embedded.mobileprovision</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9kgewWRprRewFNYQb8+6GeKN63c=
-			</data>
-			<key>hash2</key>
-			<data>
-			PGFd3Kjd1hAbmNzgZ1+vuX1P51kUxOoc2URQeZQtGfc=
 			</data>
 		</dict>
 	</dict>
