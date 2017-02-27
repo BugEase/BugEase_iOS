@@ -28,11 +28,27 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
 
 /**
  * 集成SDK
+ * @param appKey SDK的appkey
+ * @param model  SDK启动方式
+ *
+ **/
+
++(id) startWithAppKey:(NSString*) appKey withModel:(BEModel) model;
+
+/**
+ * 集成SDK
  * @param appKey SDK的appKey
  * @param model  SDK启动方式
  *
  **/
 +(id)shareManagerWithAppKeys:(NSString *) appKey withModel:(BEModel) model;
+
+/**
+ * 打开BugEase反馈页面
+ * @return 
+ *
+ **/
++(void) showFeedBackView;
 
 /**
  * 设置自定义字段
