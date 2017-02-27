@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, BEModel){
+typedef NS_ENUM(NSUInteger, BEModel){
     BEInvocationEventNone, // 0 直接启动
     BEInvocationEventShake, // 1 摇一摇启动
     BEInvocationEventFloatButton, // 2 悬浮窗启动
@@ -32,7 +32,7 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  * @param model  SDK启动方式
  *
  **/
-+(id)shareManagerWithAppKeys:(NSString *) appKey withModel:(NSUInteger) model;
++(id)shareManagerWithAppKeys:(NSString *) appKey withModel:(BEModel) model;
 
 /**
  * 设置自定义字段
