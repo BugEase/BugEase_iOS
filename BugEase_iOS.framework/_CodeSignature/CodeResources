@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/BEManager.h</key>
 		<data>
-		QXsIPcna4DyFqDVxpkCQni/wLaI=
+		mI3HrWKOX1gldfTG9PK3zQ2WMqU=
 		</data>
 		<key>Headers/BugEase_iOS.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Bx4ydJn8lgx6SshcbN89MlI+/nk=
+		RT4b+AAP3PoGhk8aY6l3SbsmO/s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,11 +27,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QXsIPcna4DyFqDVxpkCQni/wLaI=
+			mI3HrWKOX1gldfTG9PK3zQ2WMqU=
 			</data>
 			<key>hash2</key>
 			<data>
-			tMfiz4N6v37SWKsyM2ADC+e0MzfYq4mbR+dq3MAoH2g=
+			DV26swmmjszpfa3MhM6KXCygfNXPWO/BXfQ470KgxHU=
 			</data>
 		</dict>
 		<key>Headers/BugEase_iOS.h</key>
@@ -74,6 +74,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -119,6 +124,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>

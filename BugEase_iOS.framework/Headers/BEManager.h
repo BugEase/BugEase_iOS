@@ -21,7 +21,6 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
 
     BEISSUE_BUG,      // 0 bug
     BEISSUE_ADVICE,   // 1 建议
-    BEISSUE_CRASH,    // 2 crash
 };
 
 @interface BEManager : NSObject
