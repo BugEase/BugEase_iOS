@@ -96,6 +96,12 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  **/
 +(void) sendFeedBack:(BEIssueType)type andContent:(NSString*) feedContent andReporter:(NSString*)reporter andImage:(UIImage*)image andTags:(NSArray*) tags;
 
+/**
+ * 屏蔽敏感信息
+ * @param view 传入已经初始化的控件，可以为UIWindow
+ *
+ **/
++(void) setViewSensitive:(UIView*) view;
 
 //Demo app 专用API
 
