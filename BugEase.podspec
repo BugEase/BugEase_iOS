@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BugEase"
-  s.version      = "2.2.1"
+  s.version      = "2.3.0"
   s.summary      = "ios端Bug反馈SDK."
 
   s.homepage     = "https://bugease.hz.netease.com"

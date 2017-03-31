@@ -26,7 +26,7 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
 @interface BEManager : NSObject
 
 /**
- * 集成SDK
+ * @brief 集成SDK
  * @param appKey SDK的appkey
  * @param model  SDK启动方式
  *
@@ -35,7 +35,7 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
 +(id) startWithAppKey:(NSString*) appKey withModel:(BEModel) model;
 
 /**
- * 集成SDK
+ * @brief 集成SDK
  * @param appKey SDK的appKey
  * @param model  SDK启动方式
  *
@@ -43,14 +43,14 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
 +(id)shareManagerWithAppKeys:(NSString *) appKey withModel:(BEModel) model;
 
 /**
- * 打开BugEase反馈页面
+ * @brief 打开BugEase反馈页面
  * @return 
  *
  **/
 +(void) showFeedBackView;
 
 /**
- * 设置自定义字段
+ * @brief 设置自定义字段
  * @param key   数据名
  * @param value 数据
  *
@@ -58,27 +58,34 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
 +(void) setUserData:(NSString*) key andValue:(NSString*) value;
 
 /**
- * 用户账号信息接口
+ * @brief 用户账号信息接口
  * @param userAccountInfo 用户账号信息
  *
  **/
 +(void) setUserAccountInfo:(NSString*) userAccountInfo;
 
 /**
- * 清除用户账号信息
+ * @brief 清除用户账号信息
  *
  **/
 +(void) clearUserAccountInfo;
 
 /**
- * 设置应用日志路径
+ * @brief 设置应用日志路径
  * @param logPath 应用日志路径(必选)
  *
  **/
-+(void) setAppLogPath:(NSString*) logPath;
++(void) setAppLog:(NSString*) logPath;
 
 /**
- * 设置Crash收集开关
+ * @brief 设置自定义附件
+ * @param path 自定义附件所在位置的绝对路径
+ *
+ **/
++(void) setAttachments:(nonnull NSArray<NSString*>*) paths;
+
+/**
+ * @brief 设置Crash收集开关
  * @param isOpen 是否收集Crash(必选)
  * true收集，false不收集
  *
@@ -86,7 +93,7 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
 +(void) setTrackingCrash:(BOOL) isOpen;
 
 /**
- * 直接调用API上传文件
+ * @brief 直接调用API上传文件
  * @param type 反馈类型(必选)
  * @param feedContent 反馈内容(必选)
  * @param reporter 反馈人(可选)
@@ -97,13 +104,13 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
 +(void) sendFeedBack:(BEIssueType)type andContent:(NSString*) feedContent andReporter:(NSString*)reporter andImage:(UIImage*)image andTags:(NSArray*) tags;
 
 /**
- * 屏蔽敏感信息
+ * @brief 屏蔽敏感信息
  * @param view 传入已经初始化的控件，可以为UIWindow
  *
  **/
 +(void) setViewSensitive:(UIView*) view;
 
-//Demo app 专用API
+//@brief Demo app 专用API
 
 +(void) selectModel:(BEModel)model;
 
