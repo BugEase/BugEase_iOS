@@ -32,7 +32,7 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  *
  **/
 
-+(id) startWithAppKey:(NSString*) appKey withModel:(BEModel) model;
++(nullable id) startWithAppKey:(nonnull NSString*) appKey withModel:(BEModel) model;
 
 /**
  * @brief 集成SDK
@@ -40,7 +40,7 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  * @param model  SDK启动方式
  *
  **/
-+(id)shareManagerWithAppKeys:(NSString *) appKey withModel:(BEModel) model;
++(nullable id)shareManagerWithAppKeys:(nonnull NSString *) appKey withModel:(BEModel) model;
 
 /**
  * @brief 打开BugEase反馈页面
@@ -55,14 +55,14 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  * @param value 数据
  *
  **/
-+(void) setUserData:(NSString*) key andValue:(NSString*) value;
++(void) setUserData:(nonnull NSString*) key andValue:(nonnull NSString*) value;
 
 /**
  * @brief 用户账号信息接口
  * @param userAccountInfo 用户账号信息
  *
  **/
-+(void) setUserAccountInfo:(NSString*) userAccountInfo;
++(void) setUserAccountInfo:(nonnull NSString*) userAccountInfo;
 
 /**
  * @brief 清除用户账号信息
@@ -75,7 +75,7 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  * @param logPath 应用日志路径(必选)
  *
  **/
-+(void) setAppLog:(NSString*) logPath;
++(void) setAppLog:(nonnull NSString*) logPath;
 
 /**
  * @brief 设置自定义附件
@@ -101,14 +101,23 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  * @param tags 标签列表(可选)
  *
  **/
-+(void) sendFeedBack:(BEIssueType)type andContent:(NSString*) feedContent andReporter:(NSString*)reporter andImage:(UIImage*)image andTags:(NSArray*) tags;
++(void) sendFeedBack:(BEIssueType)type andContent:(nonnull NSString* ) feedContent andReporter:(nullable NSString*)reporter andImage:(nullable UIImage*)image andTags:(nullable NSArray*) tags;
 
 /**
  * @brief 屏蔽敏感信息
  * @param view 传入已经初始化的控件，可以为UIWindow
  *
  **/
-+(void) setViewSensitive:(UIView*) view;
++(void) setViewSensitive:(nonnull UIView*) view;
+
+
+/**
+ *  @brief 设置内存泄漏收集开关
+ *  @param trackingLeak 内存泄漏收集开关，true为收集，false 为不收集
+ *
+ **/
++(void) setTrackingMemoryLeak:(BOOL) trackingLeak;
+
 
 //@brief Demo app 专用API
 
