@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/BEManager.h</key>
 		<data>
-		IOQckOPhNpgYW1zGSpS+cyja7LA=
+		Aqt5fcF/A+cEj9k4zDZFM9QA0xM=
 		</data>
 		<key>Headers/BugEase_iOS.h</key>
 		<data>
-		QymZM7qV7a4CllDqQwdrdIlD1Ac=
+		QGV92aVMGGtu44DDF5YO7Ato470=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7vRflEtoCAh1GsAXyxeWlYOyupg=
+		GKlFBY9cDZ9KCqUni6v6zOu714Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -27,22 +27,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IOQckOPhNpgYW1zGSpS+cyja7LA=
+			Aqt5fcF/A+cEj9k4zDZFM9QA0xM=
 			</data>
 			<key>hash2</key>
 			<data>
-			KQT8rZN1Q3JE/0g33W3jbN5pgME68pd/nLYhlO7ZXKA=
+			CynsshZ2HDJ2B9c7l4acR5iS+/PvjvwDmmvHUo3he7U=
 			</data>
 		</dict>
 		<key>Headers/BugEase_iOS.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QymZM7qV7a4CllDqQwdrdIlD1Ac=
+			QGV92aVMGGtu44DDF5YO7Ato470=
 			</data>
 			<key>hash2</key>
 			<data>
-			a5ijTcuI3iSjkT+EQhxabo/LGId5vPqk5uiyW2mK5bk=
+			TvkoJcY55ES4b0a4JW3zrgCQmaXvG/9qMeky2HXKsVY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

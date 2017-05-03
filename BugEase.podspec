@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "BugEase"
-  s.version      = "2.4.0"
+  s.version      = "2.5.0"
   s.summary      = "ios端Bug反馈SDK."
 
   s.homepage     = "https://bugease.hz.netease.com"
   s.license      = {
                 :type =>"MIT",
                 :text =>  <<-LICENSE 
-                Copyright (C) 2016 BugEase.
+                Copyright (C) 2017 BugEase.
                 Permission is hereby granted to use this framework as is, modification are not allowed.
                 All rights reserved.
                 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
  # s.frameworks = "BugEase_iOS"
 
-  s.libraries = "z.1.2.5"
+  s.libraries = "z.1.2.5","c++"
 
   s.requires_arc = true
   s.vendored_frameworks = 'BugEase_iOS.framework'

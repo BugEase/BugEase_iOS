@@ -2,8 +2,8 @@
 //  BEManager.h
 //  BugEase_iOS
 //
-//  Created by jc on 16/8/1.
-//  Copyright © 2016年 jc. All rights reserved.
+//  Created by NetEase on 16/8/1.
+//  Copyright © 2016年 NetEase. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
