@@ -92,6 +92,8 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  **/
 +(void) setTrackingCrash:(BOOL) isOpen;
 
+
+
 /**
  * @brief 直接调用API上传文件
  * @param type 反馈类型(必选)
@@ -118,6 +120,13 @@ typedef NS_ENUM(NSUInteger,BEIssueType){
  **/
 +(void) setTrackingMemoryLeak:(BOOL) trackingLeak;
 
+
+/**
+ * @brief 设置卡顿检测开关
+ * @param trackingStuck 卡顿检测开关，true为开启检测，false 为关闭检测
+ *
+ **/
++(void) setTrackingStuck:(BOOL) trackingStuck;
 
 //@brief Demo app 专用API
 
